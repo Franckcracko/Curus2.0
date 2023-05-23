@@ -1,18 +1,21 @@
+import Image from "next/image";
+import styles from '../app/home.module.css';
+
 const Home = () => {
     return (
         <main>
             <article>
                 {/* Hero Icon */}
-                <section>
-                    <h1>VE SEGURA, VUELVE SIEMPRE</h1>
+                <section className={styles.hero_image}>
+
                 </section>
             </article>
             <article>
 
                 {/* Seguridad */}
                 <section>
-                    <h2>Seguridad</h2>
-                    <p>
+                    <h2 className="text-xl md:text-2xl">Seguridad</h2>
+                    <p className="text-base">
                         La pulsera de seguridad está pensada para
                         situaciones en la cual la persona se encuentre
                         en peligro. Para ello tiene implementado un GPS
@@ -27,7 +30,7 @@ const Home = () => {
                 </section>
                 {/* Imperceptible */}
                 <section>
-                    <h2>Imperceptible</h2>
+                    <h2 >Imperceptible</h2>
                     <p>
                         Cuenta con un diseño bastante simple con
                         la finalidad de que pase imperceptible al
