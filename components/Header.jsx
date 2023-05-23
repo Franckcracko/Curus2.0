@@ -1,8 +1,10 @@
 const Header = ({children}) =>{
     return(
-        <header className="bg-purple-500 flex justify-between items-center px-4 text-white min-h-[64px]">
+        <header className="h-14 bg-purple-500 flex justify-between items-center px-4 text-white">
             {/* Implementar icono  */}
-            <span>CURUS</span>
+            <section className="flex justify-center items-center">
+                <span>CURUS</span>
+            </section>
             {children}
         </header>
     )
