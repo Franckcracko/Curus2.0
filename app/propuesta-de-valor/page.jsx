@@ -1,5 +1,4 @@
 import Propuesta from "@/components/Propuesta";
-
 const PropuestaPage = () =>{
     return (
         <main>

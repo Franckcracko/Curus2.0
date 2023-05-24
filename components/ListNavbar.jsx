@@ -14,7 +14,7 @@ const ListNavbar = () => {
                 <li><Link href='/producto'>PRODUCTO</Link></li>
                 <li><Link href='/about-me'>CONOCENOS</Link></li>
             </ul>
-            <button onClick={handleCollission} className="absolute top-3 right-3">
+            <button onClick={handleCollission} className="absolute top-2 right-3">
                 <img className='hidden max-md:block' src={`${collission ? "/images/error.svg" : "/images/menu-hamburguer.svg"}`} alt="icon-menu" width='32' />
             </button>
         </nav>

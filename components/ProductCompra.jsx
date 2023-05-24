@@ -1,5 +1,7 @@
+import ProductComponent from "./ProductComponent";
+
 const ProductoCompra = () => {
-    <main>
+    <h1>
         <article>
             <section>
                 //Carrusel de imagen de la pulsera
@@ -17,6 +19,7 @@ const ProductoCompra = () => {
                         alertas a las personas a tu alrededor.</p>
                 </section>
             </section>
+            
             <section>
                 <h3>Propiedades</h3>
                 {/* Lista de propiedades */}
@@ -24,7 +27,7 @@ const ProductoCompra = () => {
                 </ul>
             </section>
         </article>
-    </main>
+    </h1>
 
 }
 export default ProductoCompra;
