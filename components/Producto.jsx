@@ -1,17 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Producto = () => {
     return (
         <main>
-            <article className="mb-5 flex justify-center gap-x-10 items-center bg-slate-500 h-[30vh] md:h-[50vh]">
-                <section>
-                    <h1>PULSERA DE SEGURIDAD CURUS</h1>
-                    <h2>Uso Facil, Imperceptible y Segura</h2>
-                    <Link href='producto/producto-compra'>VER PRODUCTO</Link>
+            <article className="mb-5 flex justify-center gap-x-10 items-center  bg-slate-400 h-[35vh] md:h-[50vh]">
+                <section className="flex-1 md:p-20">
+                    <h1 className="title_h1 text-white">PULSERA DE SEGURIDAD CURUS</h1>
+                    <h2 className="content_p_small text-white">Uso Facil, Imperceptible y Segura</h2>
+                    <Link className="text-[--primary-color]  hover:text-[--secondary-color] hover:shadow-sm border-b border-[--primary-color] hover:border-[--secondary-color]" href='producto/producto-compra'>VER PRODUCTO</Link>
                 </section>
                 {/* Imagen de Producto */}
-                <section className="hidden md:block">
-                    lia
+                <section className="md:flex-auto hidden md:block">
+                    <Image className="" width={300} height={250} src='/images/pulsera_img_product-page.png'></Image>
                 </section>
             </article>
             <article className="content">

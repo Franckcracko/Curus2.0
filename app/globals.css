@@ -1,8 +1,9 @@
 :root {
     --primary-color:#7E22CE ;
-    --secondary-color: #BE1CE6 ;
+    --secondary-color: #BE1CE6;
     --footer-bg:#501CE6;
     --border-color: #1A1DDB;
+    --contrario-color: #3C45FC;
 }
 
 @tailwind base;

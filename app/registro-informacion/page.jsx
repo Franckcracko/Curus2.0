@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const RegistroInformacionPersonal = () => {
     const styleInput = 'peer md:placeholder:text-transparent shadow md:shadow-sm rounded flex-1 md:flex-auto md:ml-2 p-3 md:p-1 border border-solid border-black border-opacity-10';
     return (
@@ -17,27 +19,37 @@ const RegistroInformacionPersonal = () => {
                     más solamente usted conocerá estos datos.
                 </p>
             </section>
-            <section className="md:order-3">
+            <section className="order-3 grid justify-center justify-items-center">
                 <h3 className="title_h3 uppercase">codigo qr</h3>
-                <div className="border border-black w-[200px] h-[200px] bg-slate-500 "></div>
+                <section className="border border-black w-[200px] h-[200px] bg-slate-500 "></section>
                 <a href="#" className="content_p_small">Descargar</a>
             </section>
-            <form className="md:px-5 md:my-10  md:row-span-2 md:bg-[--primary-color]">
+            <form className="md:shadow-lg md:rounded md:px-5 md:my-10  md:row-span-2 md:bg-[--primary-color]">
                 <h2 className="text-start md:text-center title_h2 md:text-white">Formulario de Datos</h2>
                 <section className="grid gap-y-3 w-full  px-5 sm:px-10 md:px-0 md:my-10">
-                    <section className="flex gap-y-2 sm:gap-y-0 md:gap-y-0 md:items-center flex-col items-start sm:flex-row  md:flex-row">
-                        <label className=" flex-none text-sm text-black opacity-60 md:text-slate-200 md:opacity-100 focus-visible:hidden">
-                            Nombre del portador:
-                        </label>
-                        <input className={styleInput} type="email" placeholder="Brian Leonardo" name="" id="" />
-                        <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
-                            Requerido
-                        </p>
+                    {
+                        [1, 2, 3, 4].map(el => {
+                            return(
+                                <section key={el} className="flex gap-y-2 sm:gap-y-0 md:gap-y-0 sm:items-center sm:gap-x-2 md:items-center flex-col sm:flex-row  md:flex-row">
+                                    <label className="flex-none text-sm text-[rgba(0,0,0,0.5)] md:text-slate-200 md:opacity-100 focus-visible:hidden">
+                                        Nombre del portador:
+                                    </label>
+                                    <input className={styleInput} type="email" placeholder="Brian Leonardo" />
+                                    <p className="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                                        Requerido
+                                    </p>
 
-                    </section>
+                                </section>
+                            )
+                        })
+
+                    }
+                </section>
+                <section className="flex justify-center sm:mt-7 md:mt-0 md:justify-end">
+                    <button type="submit" className="w-full mx-28 text-center py-3 sm:py-2 md:py-2 md:mx-0 sm:mx-0 sm:w-auto md:w-auto sm:px-10 md:px-10 p-2 uppercase text-white bg-[--footer-bg] hover:bg-[--border-color] rounded hover:shadow">enviar</button>
                 </section>
             </form>
-        </main>
+        </main >
     )
 }
 export default RegistroInformacionPersonal;

@@ -4,7 +4,7 @@ const ProductoCompra = () => {
     return (
         <article className="py-5 md:py-7">
             <section class="flex flex-col md:flex-row">
-                <section class="flex-none px-4 sm:px-10 md:px-0 md:w-52 relative">
+                <section class="flex-none px-4 sm:px-10 md:px-0 md:w-52 md:relative">
                     <img src="/images/hero_image.webp" alt="" class="md:absolute inset-0 w-full h-full object-cover rounded-sm" loading="lazy" />
                 </section>
                 <section class="flex-auto px-2 sm:p-6 md:p-6">
