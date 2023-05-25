@@ -1,9 +1,8 @@
 import ProductoCompra from "../../../components/ProductCompra";
 
-const ProductoCompraPage = () =>{
-    return(
+const ProductoCompraPage = () => {
+    return (
         <ProductoCompra />
-        )
+    )
 }
-
 export default ProductoCompraPage;

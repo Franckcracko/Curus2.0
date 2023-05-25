@@ -1,8 +1,10 @@
 import Producto from "@/components/Producto";
 
-const ProductPage = () =>{
+const ProductPage = () => {
     return (
-        <Producto />
+        <>
+            <Producto />
+        </>
     )
 }
 

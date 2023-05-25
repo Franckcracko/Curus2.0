@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white pb-4 mt-5 pt-2 sm:pt-10 md:pt-20 px-2 sm:px-10 md:px-20 flex flex-col ">
+        <footer className="bg-[#501CE6] text-white pb-4 mt-5 pt-2 sm:pt-10 md:pt-20 px-2 sm:px-10 md:px-20 flex flex-col ">
             <section className="grid items-start gap-x-10 gap-y-5 grid-rows-2  md:gap-y-0 grid-cols-2 md:grid-rows-1 md:grid-cols-4 mb-5">
                 {/* CURUS */}
                 <section>
@@ -15,8 +15,8 @@ const Footer = () => {
                     <h4 className="font-semibold">Explorar</h4>
                     <ul>
                         <li><Link href='/'>Inicio</Link></li>
-                        <li><Link href='/'>Propuesta de Valor</Link></li>
-                        <li><Link href='/'>Producto</Link></li>
+                        <li><Link href='/propuesta-de-valor'>Propuesta de Valor</Link></li>
+                        <li><Link href='/producto'>Producto</Link></li>
                         <li><Link href='/'>Conocenos</Link></li>
                     </ul>
                 </section>
@@ -35,7 +35,7 @@ const Footer = () => {
                     </button>
                 </section>
             </section>
-            <p>Copyright 2022©</p>
+            <p>Copyright 2023©</p>
         </footer>
     )
 }

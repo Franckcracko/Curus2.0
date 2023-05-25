@@ -66,9 +66,9 @@ const Propuesta = () => {
 
                     {
                         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(cardInfo =>
-                            <section className="w-[275px] min-h-[325px] sm:w-[250px] sm:min-h-[400px] md:w-[200px] md:min-h-[300px] bg-slate-200 ">
+                            <section className="shadow w-[275px] min-h-[325px] sm:w-[250px] sm:min-h-[400px] md:w-[200px] md:min-h-[300px] bg-slate-200 rounded-sm">
                                 {/* Imagen */}
-                                <section className="w-full h-36 sm:h-32 md:h-24 mb-2 bg-slate-600"></section>
+                                <section className="rounded-t-sm w-full h-36 sm:h-32 md:h-24 mb-2 bg-slate-600"></section>
                                 <section className="px-4 mb-2">
                                     {/* Resumen*/}
                                     <p className="sm:text-sm md:text-xs mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas cumque exercitationem non ducimus officia placeat dolorum quasi? Officia fugit porro tenetur laborum natus tempore distinctio facere iure eos ea!</p>
