@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from '../app/producto.css';
 
 
 const Producto = () => {
@@ -81,30 +80,48 @@ const Producto = () => {
                         </ul>
                     </section>
                     {/* Carrusel de Imagenes */}
-                    <section className="columnasimg" hidden xl:block  >
-        
-                        <Image className="" width={100} height={150} src='/images/mapa.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/telefono.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/bluetooth.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/imperceptible.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/boton_de_emergencia.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/codigoqr.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/.png'></Image>
-                        <Image className="" width={150} height={150} src='/images/.png'></Image>
-                  
+            
+                    <section className={'${styles.columnas}'}>
+                         <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/mapa.png'></Image>
+                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/telefono.png'></Image>
+                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/bluetooth.png'></Image>
+                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/imperceptible.png'></Image>
+                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/boton_de_emergencia.png'></Image>
+                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/codigoqr.png'></Image>
+                       
+                
                     </section>
                 </section>
                 <section>
                     <h2 className="title_h2">¿Cómo instalar la aplicacion de Curus?</h2>
                     {/* Pendiente */}
+                    <li>1.- Instala nuestra app mediante este enlace https://www.mediafire.com/file/ylfk50y67t99npj/app-debug.apk/file</li>
+                    <li>2.- Dale permisos a tu celular de instalar aplicaciones de origenes desconocidos.</li>
+                    <li>3.- Una vez instalada abre la aplicación “Curus”</li>
+                    <li>4.- Registrate con tu correo eléctronico y crea una contraseña para la app.</li>
+                    <li>5.- Registra el codigo de referencia de tu pulsera en caso de que tengas portada una pulsera(este código de referencia se te otorgará una vez realizada tu compra).</li>
+                    <li>6.- Listo, ya estas dentro de la aplicación de Curus.</li>
                     <ul>
                     </ul>
                 </section>
                 <section>
                     <h2 className="title_h2">PANTALLAS DE LA APLICACION MOVIL DE CURUS</h2>
+                    <li>REGISTRO</li>
+                    <li>CODIGO DE REFERENCIA</li>
+                    <li> INICIO</li>
+                    <li>AMIGOS</li>
+                    <li>CONFIGURACION</li>
                     {/* Imagenes de la aplicacion */}
-                    <section>
-
+                    <section className="column-count:5">
+                    <section className="md:flex-auto hidden md:block">
+                    <Image className="" width={200} height={600} src='/images/Imagen_app1.png'></Image>
+                    <Image className="" width={200} height={600} src='/images/Imagen_app2.png'></Image>
+                    <Image className="" width={200} height={600} src='/images/Imagen_app3.png'></Image>
+                    <Image className="" width={200} height={400} src='/images/Imagen_app4.jpg'></Image>
+                    <Image className="" width={200} height={600} src='/images/imagen_app5.png'></Image>
+                </section>
+                    {/* ENLACE DEL MANUAL*/}
+                    <Link className="text-[--primary-color]  hover:text-[--secondary-color] hover:shadow-sm border-b border-[--primary-color] hover:border-[--secondary-color]" href='producto/producto-compra'>Descarga el Manual de Usuario e Instalacion</Link>
                     </section>
                 </section>
             </article>

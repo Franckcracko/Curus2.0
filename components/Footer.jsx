@@ -17,14 +17,14 @@ const Footer = () => {
                         <li><Link href='/'>Inicio</Link></li>
                         <li><Link href='/propuesta-de-valor'>Propuesta de Valor</Link></li>
                         <li><Link href='/producto'>Producto</Link></li>
-                        <li><Link href='/'>Conocenos</Link></li>
+                        <li><Link href='/about-me'>Conocenos</Link></li>
                     </ul>
                 </section>
                 {/* Contactanos */}
                 <section>
                     <h4 className="font-semibold">Servicio a cliente</h4>
                     <p className="text-xs">Puedes contactarte a soporte si tienes alguna duda sobre el producto o algun error del sitio web.</p>
-                    <p className="text-sm underline underline-offset-2">example@gmail.com</p>
+                    <p className="text-sm underline underline-offset-2">soporte.curus@gmail.com</p>
                 </section>
                 {/* Aplicacion */}
                 <section>
