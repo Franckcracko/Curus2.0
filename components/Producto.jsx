@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import styles from '../app/producto.css';
+
 
 const Producto = () => {
     return (
@@ -20,14 +22,13 @@ const Producto = () => {
                     <h2 className="title_h2">¿Por que usarla?</h2>
                     <p className="content_p">
                         Te invitamos a que pruebes la pulsera CURUS ya que nosotros más que nadie
-                        queremos que te encuentres segurx y te estes prevenido ante cualquier situación en
-                        la que se pueda ver afectada tu salud.
+                        queremos que te encuentres segurx y estes prevenidx ante cualquier situación en la que se pueda ver afectada tu salud.
                         Por ello se ha diseñado este producto que cuenta con GPS y botón de pánico, fácil
                         de usar y simple. Además, pasará desapercibido al ojo de las personas que te
                         encuentres a tu alrededor y cada diseño será personalizado al gusto del cliente para
                         su comodidad preguntando las medidas de su muñeca.
                         Cuenta con un Código QR que contendrá información personal que tu como cliente
-                        nos hayas brindado en el formulario de compra. Toda esta información que nos
+                        nos hayas brindado en el formulario de compra. Toda la información que nos
                         entregues será de uso personal y nadie, más que tú tendrá acceso a ella mediante el
                         Código QR de tu pulsera. Asimismo, con la ayuda de la aplicación móvil podrás
                         compartir esta información con tu circulo de confianza (familiares o amigos de mucha
@@ -55,7 +56,7 @@ const Producto = () => {
                                 aplicación móvil.
                             </li>
                             <li>
-                                El diseño es muy simple, al igual que los cliores
+                                El diseño es muy simple, al igual que los colores
                                 presentados, esto con la finalidad de pasar
                                 desapercibida a simple vista al ojo de las demás
                                 personas.
@@ -80,8 +81,17 @@ const Producto = () => {
                         </ul>
                     </section>
                     {/* Carrusel de Imagenes */}
-                    <section className="hidden xl:block">
-                        imagennnn
+                    <section className="columnasimg" hidden xl:block  >
+        
+                        <Image className="" width={100} height={150} src='/images/mapa.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/telefono.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/bluetooth.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/imperceptible.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/boton_de_emergencia.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/codigoqr.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/.png'></Image>
+                        <Image className="" width={150} height={150} src='/images/.png'></Image>
+                  
                     </section>
                 </section>
                 <section>

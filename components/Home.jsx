@@ -30,8 +30,9 @@ const Home = () => {
                             la app de Curus.
                         </p>
                     </section>
-                    <div className="mx-auto w-[100px] h-[100px] bg-gray-400" />
-
+                    <div className="mx-auto">
+                    <Image  src={'/images/security.jpg'} alt=""  height={300} width={300}></Image>
+                    </div>
                 </section>
                 {/* Imperceptible */}
                 <section className={stylesSection}>
@@ -47,7 +48,9 @@ const Home = () => {
                             percibido
                         </p>
                     </section>
-                    <div className="mx-auto w-[100px] h-[100px] bg-gray-400" />
+                    <div className="mx-auto">
+                    <Image  src={'/images/oculto.png'} alt=""  height={300} width={300}></Image>
+                    </div>
 
                 </section>
                 {/* Facil de usar */}
@@ -63,8 +66,9 @@ const Home = () => {
                             sesión como en cualquier otra app movil.
                         </p>
                     </section>
-                    <div className="mx-auto w-[100px] h-[100px] bg-gray-400" />
-
+                    <div className="mx-auto">
+                    <Image  src={'/images/facilidad.jpg'} alt=""  height={300} width={300}></Image>
+                    </div>
                 </section>
             </article>
         </main>
