@@ -1,10 +1,9 @@
 import Propuesta from "@/components/Propuesta";
-const PropuestaPage = () =>{
+
+export default function PropuestaPage  ({localData}) {
     return (
-        <main>
+        <>
             <Propuesta />
-        </main>
+        </>
     )
 }
-
-export default PropuestaPage;

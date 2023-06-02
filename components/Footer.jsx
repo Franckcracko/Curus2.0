@@ -24,15 +24,19 @@ const Footer = () => {
                 <section>
                     <h4 className="font-semibold">Servicio a cliente</h4>
                     <p className="text-xs">Puedes contactarte a soporte si tienes alguna duda sobre el producto o algun error del sitio web.</p>
+<<<<<<< HEAD
                     <p className="text-sm underline underline-offset-2">soporte.curus@gmail.com</p>
+=======
+                    <a href="https://mail.google.com/mail/u/1/#inbox?compose=new" target="_blank" className="text-sm underline underline-offset-2">soporte.curus@gmail.com</a>
+>>>>>>> e13f009aeb669b9dab89d026b647955c9c29ef7e
                 </section>
                 {/* Aplicacion */}
                 <section>
                     <h4 className="font-semibold">Plataformas</h4>
-                    <button className="flex items-center">
+                    <a href="" className="flex items-center">
                         <img width={16}  src='/images/playstore.svg'/>
                         <span>Playstore</span>
-                    </button>
+                    </a>
                 </section>
             </section>
             <p>Copyright 2023©</p>

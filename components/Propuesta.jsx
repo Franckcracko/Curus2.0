@@ -51,7 +51,6 @@ const cardInfo=[
     
 ]
 import Image from "next/image";
-
 const Propuesta = () => {
     return (
         <main className="content">
@@ -117,10 +116,10 @@ const Propuesta = () => {
             </section>
             <section className="mb-5">
                 <h2 className="title_h2">Casos de Desaparecidos en México</h2>
-                //Implementar Casos de Imagenes en Mexico
                 <article className="grid justify-center sm:grid-cols-2 sm:justify-items-center md:grid-cols-3 gap-y-4">
 
                     {
+<<<<<<< HEAD
                         cardInfo.map(listData =>
                             <section className="shadow w-[250px] min-h-[155px] sm:w-[250px] sm:min-h-[300px] md:w-[250px] md:min-h-[150px] bg-slate-200 rounded-sm">
                                 {/* Imagen */}
@@ -136,11 +135,27 @@ const Propuesta = () => {
                                 </section>
                             </section>
                         )
+=======
+                        // casos.map(cardInfo =>
+                        //     <section className="shadow w-[275px] min-h-[325px] sm:w-[250px] sm:min-h-[400px] md:w-[200px] md:min-h-[300px] bg-slate-200 rounded-sm">
+                        //         {/* Imagen */}
+
+                        //         <section className="rounded-t-sm w-full h-36 sm:h-32 md:h-24 mb-2 bg-slate-600"></section>
+                        //         <section className="px-4 mb-2">
+                        //             {/* Resumen*/}
+                        //             <p className="sm:text-sm md:text-xs mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas cumque exercitationem non ducimus officia placeat dolorum quasi? Officia fugit porro tenetur laborum natus tempore distinctio facere iure eos ea!</p>
+                        //             {/* Link del caso */}
+                        //             <a href="https://google.com" target="_blank" className="text-blue-600 underline">Ver mas</a>
+                        //         </section>
+                        //     </section>
+                        // )
+>>>>>>> e13f009aeb669b9dab89d026b647955c9c29ef7e
                     }
                 </article>
             </section>
         </main>
     )
 }
+
 
 export default Propuesta;
