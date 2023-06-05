@@ -130,7 +130,7 @@ const Propuesta = () => {
                                         listData.info.map( item =><li>{item}</li>)
                                     }</p>
                                     {/* Link del caso */}
-                                    <a href="https://google.com" target="_blank" className="text-blue-600 underline">Ver mas</a>
+                                    <a href={listData.link} target="_blank" className="text-blue-600 underline">Ver mas</a>
                                 </section>
                             </section>
                         )
