@@ -1,9 +1,0 @@
-.columnas{
-    display:flex;
-   column-gap: 50px;
-    column-count: 2;
-}
-.columnasimg{
-    width: 100px;
-    margin-bottom: 20px;
-}

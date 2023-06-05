@@ -119,12 +119,11 @@ const Propuesta = () => {
                 <article className="grid justify-center sm:grid-cols-2 sm:justify-items-center md:grid-cols-3 gap-y-4">
 
                     {
-<<<<<<< HEAD
                         cardInfo.map(listData =>
-                            <section className="shadow w-[250px] min-h-[155px] sm:w-[250px] sm:min-h-[300px] md:w-[250px] md:min-h-[150px] bg-slate-200 rounded-sm">
+                            <section className="shadow w-[250px] min-h-[100px] sm:w-[150px] sm:min-h-[150px] md:w-[200px] md:min-h-[150px] bg-slate-200 rounded-sm">
                                 {/* Imagen */}
                                 <Image src={listData.image} height={100} width={200}></Image>
-                                <section className="rounded-t-sm w-full h-18 sm:h-28 md:h-18 mb-2 bg-slate-600"></section>
+                                <section className="rounded-t-sm w-full h-12 sm:h-9 md:h-1 mb-2 bg-slate-600"></section>
                                 <section className="px-4 mb-2">
                                     {/* Resumen*/}
                                     <p className="sm:text-sm md:text-xs mb-2">{
@@ -135,21 +134,6 @@ const Propuesta = () => {
                                 </section>
                             </section>
                         )
-=======
-                        // casos.map(cardInfo =>
-                        //     <section className="shadow w-[275px] min-h-[325px] sm:w-[250px] sm:min-h-[400px] md:w-[200px] md:min-h-[300px] bg-slate-200 rounded-sm">
-                        //         {/* Imagen */}
-
-                        //         <section className="rounded-t-sm w-full h-36 sm:h-32 md:h-24 mb-2 bg-slate-600"></section>
-                        //         <section className="px-4 mb-2">
-                        //             {/* Resumen*/}
-                        //             <p className="sm:text-sm md:text-xs mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas cumque exercitationem non ducimus officia placeat dolorum quasi? Officia fugit porro tenetur laborum natus tempore distinctio facere iure eos ea!</p>
-                        //             {/* Link del caso */}
-                        //             <a href="https://google.com" target="_blank" className="text-blue-600 underline">Ver mas</a>
-                        //         </section>
-                        //     </section>
-                        // )
->>>>>>> e13f009aeb669b9dab89d026b647955c9c29ef7e
                     }
                 </article>
             </section>

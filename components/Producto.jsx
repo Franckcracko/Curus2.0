@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import styles from '../app/producto.css';
 
 const Producto = () => {
     return (
@@ -81,15 +81,16 @@ const Producto = () => {
                     </section>
                     {/* Carrusel de Imagenes */}
             
-                    <section className={'${styles.columnas}'}>
-                         <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/mapa.png'></Image>
-                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/telefono.png'></Image>
-                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/bluetooth.png'></Image>
-                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/imperceptible.png'></Image>
-                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/boton_de_emergencia.png'></Image>
-                        <Image className="    width: 10px; margin-bottom: 20px" width={150} height={100} src='/images/codigoqr.png'></Image>
-                       
+                    <section className={'${contenedor}'}>
+                        <section className={'${imagenes}'}>
                 
+                         <Image className="" width={150} height={100} src='/images/mapa.png'></Image>
+                        <Image className="" width={150} height={100} src='/images/telefono.png'></Image>
+                        <Image className= "" width={150} height={100} src='/images/bluetooth.png'></Image>
+                        <Image className="" width={150} height={100} src='/images/imperceptible.png'></Image>
+                        <Image className="" width={150} height={100} src='/images/boton_de_emergencia.png'></Image>
+                        <Image className="" width={150} height={100} src='/images/codigoqr.png'></Image>
+                 </section>
                     </section>
                 </section>
                 <section>
@@ -114,14 +115,14 @@ const Producto = () => {
                     {/* Imagenes de la aplicacion */}
                     <section className="column-count:5">
                     <section className="md:flex-auto hidden md:block">
-                    <Image className="" width={200} height={600} src='/images/Imagen_app1.png'></Image>
-                    <Image className="" width={200} height={600} src='/images/Imagen_app2.png'></Image>
-                    <Image className="" width={200} height={600} src='/images/Imagen_app3.png'></Image>
+                    <Image className="" width={300} height={500} src='/images/Imagen_app1.png'></Image>
+                    <Image className="" width={300} height={500} src='/images/Imagen_app2.png'></Image> 
+                    <Image className="" width={300} height={500} src='/images/Imagen_app3.png'></Image>
                     <Image className="" width={200} height={400} src='/images/Imagen_app4.jpg'></Image>
                     <Image className="" width={200} height={600} src='/images/imagen_app5.png'></Image>
                 </section>
                     {/* ENLACE DEL MANUAL*/}
-                    <Link className="text-[--primary-color]  hover:text-[--secondary-color] hover:shadow-sm border-b border-[--primary-color] hover:border-[--secondary-color]" href='producto/producto-compra'>Descarga el Manual de Usuario e Instalacion</Link>
+                    <Link className="text-[--primary-color]  hover:text-[--secondary-color] hover:shadow-sm border-b border-[--primary-color] hover:border-[--secondary-color]" href='https://pdf.ac/1IAWjf'>Descarga el Manual de Usuario e Instalacion</Link>
                     </section>
                 </section>
             </article>
